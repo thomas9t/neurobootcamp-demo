@@ -1,0 +1,16 @@
+2025-09-18 17:39:22 [INFO] Input Data Summary: 
+       temperature    humidity        pm25
+count   187.000000  184.000000  191.000000
+mean      0.365868   -0.084263   -0.134753
+std       0.287070    1.088412    0.630080
+min      -0.391185   -2.339426   -1.688895
+25%       0.159311   -0.915634   -0.563046
+50%       0.335958   -0.201411   -0.193390
+75%       0.544445    0.650898    0.227352
+max       1.086390    2.407658    1.615692
+2025-09-18 17:39:22 [INFO] Running denoising pipeline for temperature
+2025-09-18 17:39:23 [INFO] Regression coefficients: [ 0.57592258  0.24378309 -0.00475914]
+2025-09-18 17:39:23 [INFO] Running denoising pipeline for humidity
+2025-09-18 17:39:23 [INFO] Regression coefficients: [0.5260401  0.22634382 0.09703071]
+2025-09-18 17:39:23 [INFO] Running denoising pipeline for pm25
+2025-09-18 17:39:23 [INFO] Regression coefficients: [0.75583951 0.06341456 0.07530917]
