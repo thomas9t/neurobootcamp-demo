@@ -29,7 +29,6 @@ def main():
 
 
 def denoise_signal(df, varname):
-    LOG.info(f"Running denoising pipeline for {varname}")
     signal        = df[varname].dropna()
     lagged_signal = build_lags(signal)
     y_hat         = fit_model_and_predict(lagged_signal)
@@ -53,7 +52,6 @@ def fit_model_and_predict(lagged_signal):
 
     model = LinearRegression().fit(X, y)
     y_hat = model.predict(X)
-    LOG.info(f"Regression coefficients: {model.coef_.ravel()}")
 
     return y_hat
 
